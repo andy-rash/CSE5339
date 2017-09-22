@@ -1,0 +1,23 @@
+    \documentclass{standalone}
+    \usepackage{tikz}
+    \begin{document}
+        \begin{tikzpicture}[every node/.style={minimum size=.5cm-\pgflinewidth, outer sep=0pt}]
+            \draw[step=0.5cm,color=black] (-1,-1) grid (1,1);
+            \node[fill=black] at (-0.75,+0.75) {R};
+            \node[fill=black] at (-0.25,+0.75) {H};
+            \node[fill=black] at (+0.25,+0.75) {K};
+            \node[fill=black] at (+0.75,+0.75) {T};
+            \node[fill=black] at (-0.75,+0.25) {U};
+            \node[fill=white] at (-0.25,+0.25) {S};
+            \node[fill=black] at (+0.25,+0.25) {B};
+            \node[fill=white] at (+0.75,+0.25) {D};
+            \node[fill=black] at (-0.75,-0.25) {O};
+            \node[fill=black] at (-0.25,-0.25) {C};
+            \node[fill=black] at (+0.25,-0.25) {E};
+            \node[fill=black] at (+0.75,-0.25) {E};
+            \node[fill=black] at (-0.75,-0.75) {Y};
+            \node[fill=white] at (-0.25,-0.75) {E};
+            \node[fill=black] at (+0.25,-0.75) {O};
+            \node[fill=white] at (+0.75,-0.75) {O};
+        \end{tikzpicture}
+    \end{document}
