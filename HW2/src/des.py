@@ -1,5 +1,4 @@
 import binascii
-import sys
 from tables import (hex2bin, bin2hex, PC_1, PC_2, exp_perm, \
                     init_perm, fin_perm, perm, rotations, s_boxes)
 
