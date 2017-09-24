@@ -32,12 +32,14 @@ The directory structure of the project is as follows.
 │       └── S8.dat
 └── src
     ├── __init__.py
-        ├── des.py
-            └── tables.py
-            ```
+    ├── des.py
+    └── tables.py
+```
 
-            ``` doc/ ``` contains the report with the answers to the homework assignment.
-            ``` res/ ``` contains the resource files for the DES tables.
-            ``` src/ ``` contains the source code for the project.
+``` doc/ ``` contains the report with the answers to the homework assignment.
 
-            There aren't any depedencies as far as I can tell, aside from needing to use Python 3.
+``` res/ ``` contains the resource files for the DES tables.
+
+``` src/ ``` contains the source code for the project.
+
+There aren't any depedencies as far as I can tell, aside from needing to use Python 3.
