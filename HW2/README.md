@@ -32,8 +32,8 @@ The directory structure of the project is as follows.
 │       └── S8.dat
 └── src
     ├── __init__.py
-        ├── des.py
-            └── tables.py
+    ├── des.py
+    └── tables.py
 ```
 
 ``` doc/ ``` contains the report with the answers to the homework assignment.
